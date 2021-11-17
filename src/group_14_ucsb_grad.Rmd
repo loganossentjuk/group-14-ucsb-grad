@@ -22,8 +22,14 @@ Update the graph by:
 Adding an argument position = “fill” to the geom_col() line, which will convert the columns from absolute counts (enrollment) to proportions
 Updating the axis labels
 
+Add a title to the graph and set a theme
+
+Add a figure caption
+
 ```{r}
 ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment)) +
-  geom_col(aes(fill = ethnicity)) 
+  geom_col(aes(fill = ethnicity)) +
+  theme_minimal() +
+  labs(x = "Abbreviated Year", y = "Domestic Enrollment", title = "Domestic Enrollment Per Year")
 ```
 
