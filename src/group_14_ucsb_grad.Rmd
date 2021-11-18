@@ -25,3 +25,4 @@ ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment)) +
   labs(x = "Abbreviated Year", y = "Domestic Enrollment", title = "Domestic Enrollment Per Year")
 ```
 
+**Figure 1: Domestic Enrollment Per Year.** Observed here is the relationship between domestic enrollment and year. Color indicates ethnicity, allowing the relationship between domestic yearly enrollment and race to be considered. 2009 had the highest overall domestic enrollment, while 2018 had the least domestic enrollment. White students had the largest percentage of yearly domestic enrollment while students who identified as African American, Filipino, and Other were the least represented.
